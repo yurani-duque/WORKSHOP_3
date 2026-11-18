@@ -1,0 +1,25 @@
+{
+  "model": "RandomForest",
+  "target": "happiness_score",
+  "features": [
+    "gdp_per_capita",
+    "social_support",
+    "life_expectancy",
+    "freedom",
+    "corruption",
+    "generosity"
+  ],
+  "n_train": 625,
+  "n_test": 157,
+  "best_params": "{\"model__max_depth\": null, \"model__min_samples_leaf\": 1}",
+  "test_metrics": {
+    "MAE": 0.4147788077693619,
+    "MSE": 0.2878012283661785,
+    "RMSE": 0.5364710880990499,
+    "R2": 0.7762383039354855,
+    "R2_ajustado": 0.767287836092905
+  },
+  "trained_at": "2026-11-18T03:40:11.409089+00:00",
+  "sklearn_version": "1.9.1",
+  "python_version": "3.13.1"
+}
